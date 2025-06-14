@@ -1,0 +1,19 @@
+body{
+    background-color: oklch(12.9% 0.042 264.695);
+    display: grid;
+    place-items: center;
+    padding-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: oklch(97.7% 0.014 308.299);
+    font-size: 40px;
+}
+.box{
+    border: 3px solid oklch(97.1% 0.014 343.198);
+    height: 150px;
+    width: 450px;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: center;
+}
