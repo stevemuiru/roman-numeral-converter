@@ -11,9 +11,43 @@ h1{
 }
 .box{
     border: 3px solid oklch(97.1% 0.014 343.198);
-    height: 150px;
+    height: 250px;
     width: 450px;
     border-radius: 3px;
     padding: 15px;
+    text-align: center;
+}
+h2{
+    color: oklch(97.7% 0.014 308.299);
+}
+input{
+    border: 1px solid oklch(97.7% 0.014 308.299);
+    background-color: oklch(20.8% 0.042 265.755);
+    height: 50px;
+    width: 225px;
+    color: oklch(97.7% 0.014 308.299);
+    font-size: 25px;
+}
+#convert-btn{
+    height: 50px;
+    width: 225px;
+    border: none;
+    background-color: oklch(82.8% 0.189 84.429);
+    color: oklch(14.5% 0 0);
+    padding: 6px;
+    font-size: 18px;
+}
+#convert-btn:hover{
+    cursor: pointer;
+}
+#output{
+    margin-top: 50px;
+    height: 75px;
+    width: 450px;
+    border: 1px solid oklch(97.7% 0.014 308.299);
+    background-color:  oklch(20.8% 0.042 265.755);
+    font-size: 25px;
+    padding: 12px;
+    color: oklch(97.7% 0.014 308.299);
     text-align: center;
 }
